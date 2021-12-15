@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-1 {
+  position: relative;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  position: relative;
+  z-index: 1;
+}
+
+header nav > a {
+  margin: 0 22.5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+  color: rgba(16, 28, 2, 0.5);
+}
+
+header nav > a:first-child, header nav > a:hover {
+  color: #418A1C;
+}
+
+.hanging-plant-box {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #F7FFEC;
+}
+
+.hanging-plant-box img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.text-box {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 80px;
+}
+
+.text-box h1 {
+  width: 123%;
+  font-weight: 800;
+  line-height: 130%;
+  color: #081800;
+  position: relative;
+  right: 110px;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.text-box h1 span {
+  font-size: 80px;
+  color: #418A1C;
+}
+
+.text-box > p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  color: rgba(8, 24, 0, 0.6);
+  margin-top: 35px;
+}
+
+.text-box .btn-margin {
+  display: inline-block;
+  margin: 25px 0 35px 0;
+}
+
+.text-box .numbers-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+
+.text-box .numbers-box .number p:first-child {
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 140%;
+  color: #418A1C;
+}
+
+.text-box .numbers-box .number p:last-child {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #081800;
+}
+
+body {
+  font-family: Raleway;
+  font-style: normal;
+  line-height: 130%;
+}
+
+section {
+  padding: 0 260px;
+}
+
+@media (max-width: 1440px) {
+  section {
+    padding: 0 80px;
+  }
+}
+
+.btn {
+  background: #081800;
+  padding: 20px 30px;
+  -webkit-box-shadow: 8px 8px 0px #51C815;
+          box-shadow: 8px 8px 0px #51C815;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-left: 58px;
+  position: relative;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+
+/*# sourceMappingURL=main.css.map */
